@@ -12,7 +12,7 @@ Generate professional, jurisdiction-aware privacy policies from your AI assistan
 ## Installation
 
 ```bash
-npx -y github:coffee-fuelled-code/mcp-shiplegal   # runs it straight from GitHub (builds on first run)
+npx -y github:coffee-fuelled-code/mcp-shiplegal   # runs it straight from GitHub
 ```
 
 ### Claude Desktop
