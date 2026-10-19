@@ -12,7 +12,7 @@ Generate professional, jurisdiction-aware privacy policies from your AI assistan
 ## Installation
 
 ```bash
-npm install @uncommon/mcp-shiplegal
+npx -y github:coffee-fuelled-code/mcp-shiplegal   # runs it straight from GitHub (builds on first run)
 ```
 
 ### Claude Desktop
@@ -24,7 +24,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "shiplegal": {
       "command": "npx",
-      "args": ["@uncommon/mcp-shiplegal"]
+      "args": ["-y", "github:coffee-fuelled-code/mcp-shiplegal"]
     }
   }
 }
